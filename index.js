@@ -12,7 +12,7 @@ const app = express(); // generates a new application
 // whole block creates a new route handler
 // arrow function is called each time the URL is hit from a request
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
+    res.send({ bye: 'buddy' });
 });
 
 // Instructs Express to tell NODE to listen to on port 5000
